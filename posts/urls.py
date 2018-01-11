@@ -17,7 +17,7 @@ from django.urls import path, include
 from django.contrib import admin
 from posts import views
 
-from posts.views import (
+from .views import (
     post_list,
     post_create,
     post_detail,
@@ -27,9 +27,10 @@ from posts.views import (
 
 urlpatterns = [
     path(r'admin/', admin.site.urls),
-    path(r'', post_list),
-    path('create/', views.post_create, name="post_create"),
-    path('detail/', views.post_detail, name="post_create"),
-    path('update/', views.post_update, name="post_update"),
-    path('delete/', views.post_delete, name="post_delete"),
+    path(r'^$', post_list),
+    path('create/', views.post_list, name="post_create"),
+    path('detail/', views.post_list, name="post_create"),
+    path('update/', views.post_list, name="post_create"),
+    path('delete/', "posts.views.post_delete"),#views.post_list, name="post_create"),
+
 ]
