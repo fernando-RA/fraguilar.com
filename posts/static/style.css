@@ -1,7 +1,12 @@
 /* ===== MENU ===== */
+.col-1{
+  padding: 0px;
+  min-height: 0px;
+}
+
 .menu {
   float: left;
-  height: 700px;;
+  height: 999px;
   width: inherit;
   background: #4768b5;
   background: -webkit-linear-gradient(#4768b5, #35488e);
