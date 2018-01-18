@@ -53,7 +53,37 @@ $("#menu-toggle").click(function(e) {
       <div class="row">
 
         <!-- Contacts Search & List -->
-        <div class="col-4 col-sm-4 col-md-4"  id="inbox" style="background: lightblue;">
+        <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: lightblue;">
+
+          <div class="inbox-header">
+            <p class="fa fa-th"> Inbox </p>
+          </div>
+
+          <div class="flex-row btn-group align-self-stretch">
+            <!-- Tab links -->
+           <div class="tab">
+             <button class="tablinks align-self-stretch" onclick="openCity(event, 'London')">Hotels</button>
+             <button class="tablinks align-self-stretch" onclick="openCity(event, 'Paris')">Inbox</button>
+             <button class="tablinks align-self-stretch" onclick="openCity(event, 'Tokyo')">Priority</button>
+           </div>
+
+           <!-- Tab content -->
+           <div id="London" class="tabcontent">
+             <h3>London</h3>
+             <p>London is the capital city of England.</p>
+           </div>
+
+           <div id="Paris" class="tabcontent">
+             <h3>Paris</h3>
+             <p>Paris is the capital of France.</p>
+           </div>
+
+           <div id="Tokyo" class="tabcontent">
+             <h3>Tokyo</h3>
+             <p>Tokyo is the capital of Japan.</p>
+           </div>
+          </div>
+
           <div id="chatbox">
             <div id="friendslist">
               <div id="friends">
@@ -110,7 +140,7 @@ $("#menu-toggle").click(function(e) {
           </div>
         </div>
 
-        <div class="col-4 col-sm-4 col-md-4" style="background: green  ;">span 4</div>
+        <div class="col-5 col-sm-5 col-md-5" style="background: green  ;">span 4</div>
         <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
       </div>
     </div>
