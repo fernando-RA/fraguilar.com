@@ -1,61 +1,122 @@
- <!DOCTYPE html>
- {% load staticfiles %}
+<!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
+  <title> fraguilar.com </title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{% static 'style.css' %}">
 
-
 </head>
 
 <script>
-  $("#menu-toggle").click(function(e) {
+$("#menu-toggle").click(function(e) {
   e.preventDefault();
   $("#wrapper").toggleClass("active");
 });
 </script>
 
 <body>
-    <div class="sidebar-left">
-      <div class="col-1 col-sm-1 col-md-1">
-        <nav class="menu">
-  				<ul class="items">
-  				  <li class="item">
-  					<i class="fa fa-home" aria-hidden="true"></i>
-  				  </li>
-  				  <li class="item">
-  					<i class="fa fa-inbox" aria-hidden="true"></i>
-  				  </li>
-  				  <li class="item">
-  					<i class="fa fa-clock-o" aria-hidden="true"></i>
-  				  </li>
-  				  <li class="item">
-  					<i class="fa fa-gear" aria-hidden="true"></i>
-  				  </li>
-  				  <li class="item">
-  					<i class="fa fa-magic" aria-hidden="true"></i>
-  				  </li>
-  				</ul>
-  			  </nav>
-        </div>
+  <!-- Menu Navigation -->
+  <div class="sidebar-left">
+    <div class="col-1 col-sm-1 col-md-1">
+      <nav class="menu">
+        <ul class="items">
+          <li class="item">
+            <img src="https://windycitygreek.com/wp-content/uploads/2017/09/Greek-Start-up-Butlair-logo-min.png" class="img-circle img-responsive" alt="Logo">
+          </li>
+          <li class="item">
+            <i class="fa fa-home" aria-hidden="true"></i>
+          </li>
+          <li class="item">
+            <i class="fa fa-inbox" aria-hidden="true"></i>
+          </li>
+          <li class="item">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </li>
+          <li class="item">
+            <i class="fa fa-gear" aria-hidden="true"></i>
+          </li>
+          <li class="item">
+            <i class="fa fa-magic" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </nav>
     </div>
+  </div>
 
-    <!-- Page content -->
-    <div class="page-content-wrapper">
-      <!-- Keep all page content within the page-content inset div! -->
-      <div class="page-content inset">
-        <div class="row">
-          <div class="col-4 col-sm-4 col-md-4" style="background: lightblue  ;">span 3</div>
-          <div class="col-4 col-sm-4 col-md-4" style="background: green  ;">span 4</div>
-          <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
+  <!-- Page content -->
+  <div class="page-content-wrapper">
+    <div class="page-content inset">
+      <div class="row">
+
+        <!-- Contacts Search & List -->
+        <div class="col-4 col-sm-4 col-md-4"  id="inbox" style="background: lightblue;">
+          <div id="chatbox">
+            <div id="friendslist">
+              <div id="friends">
+                <div class="searchfriend">
+                  <input type="text" id="searchfield" value="Search contacts...">
+                </div>
+
+                <div class="friend w3layouts">
+                  <img src="static/images/winter-soldier.jpg" alt="bucky">
+                  <p>
+                    <strong class="name">Bucky Barnes</strong>
+                    <span>wintersoldier@gmail.com</span>
+                  </p>
+                  <div class="status available"></div>
+                </div>
+
+                <div class="friend">
+                  <img src="static/images/captain-america.jpg">
+                  <p>
+                    <strong class="name">Steve Rogers</strong>
+                    <span>captainamerica@gmail.com</span>
+                  </p>
+                  <div class="status away"></div>
+                </div>
+
+                <div class="friend">
+                  <img src="static/images/flying-falcon.jpg">
+                  <p>
+                    <strong class="name">Sam Wilson</strong>
+                    <span>flyingfalcon@gmail.com</span>
+                  </p>
+                  <div class="status inactive"></div>
+                </div>
+
+                <div class="friend">
+                  <img src="static/images/black-widow.jpg">
+                  <p>
+                    <strong class="name">Natasha Romanoff</strong>
+                    <span>blackwidow@gmail.com</span>
+                  </p>
+                  <div class="status inactive"></div>
+                </div>
+
+                <div class="friend agileits">
+                  <img src="static/images/iron-man.jpg">
+                  <p>
+                    <strong class="name">Tony Stark</strong>
+                    <span>imironman4u@gmail.com</span>
+                  </p>
+                  <div class="status inactive"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div class="col-4 col-sm-4 col-md-4" style="background: green  ;">span 4</div>
+        <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
       </div>
     </div>
-
   </div>
+
+</div>
 </body>
 
 </html>
