@@ -50,40 +50,23 @@ $("#menu-toggle").click(function(e) {
   <!-- Page content -->
   <div class="page-content-wrapper">
     <div class="page-content inset">
-      <div class="row">
 
+      <div class="inbox-header">
+        <p class="fa fa-th"> Inbox </p>
+      </div>
+
+      <div class="row">
         <!-- Contacts Search & List -->
         <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: lightblue;">
 
-          <div class="inbox-header">
-            <p class="fa fa-th"> Inbox </p>
+          <div class="btn-group tabs" style="width:100%">
+          <!-- Tab links -->
+          <button class="tablinks btn btn-block" onclick="openCity(event,'London')">Hotels</button>
+          <button class="tablinks btn btn-block" onclick="openCity(event,'Paris')">Inbox</button>
+          <button class="tablinks btn btn-block" onclick="openCity(event,'Tokyo')">Priority</button>
           </div>
 
-          <div class="flex-row btn-group align-self-stretch">
-            <!-- Tab links -->
-           <div class="tab">
-             <button class="tablinks align-self-stretch" onclick="openCity(event, 'London')">Hotels</button>
-             <button class="tablinks align-self-stretch" onclick="openCity(event, 'Paris')">Inbox</button>
-             <button class="tablinks align-self-stretch" onclick="openCity(event, 'Tokyo')">Priority</button>
-           </div>
-
-           <!-- Tab content -->
-           <div id="London" class="tabcontent">
-             <h3>London</h3>
-             <p>London is the capital city of England.</p>
-           </div>
-
-           <div id="Paris" class="tabcontent">
-             <h3>Paris</h3>
-             <p>Paris is the capital of France.</p>
-           </div>
-
-           <div id="Tokyo" class="tabcontent">
-             <h3>Tokyo</h3>
-             <p>Tokyo is the capital of Japan.</p>
-           </div>
-          </div>
-
+          <!--  -->
           <div id="chatbox">
             <div id="friendslist">
               <div id="friends">
