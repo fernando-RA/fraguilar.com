@@ -51,13 +51,14 @@ $("#menu-toggle").click(function(e) {
   <div class="page-content-wrapper">
     <div class="page-content inset">
 
-      <div class="inbox-header">
-        <p class="fa fa-th"> Inbox </p>
+      <div class="inbox-header d-flex justify-content-between">
+        <p class="fa fa-th p-2"> Inbox </p>
+        <p class="fa fa-user p-2"> HERE GOES LOGGED USER </p>
       </div>
 
       <div class="row">
         <!-- Contacts Search & List -->
-        <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: lightblue;">
+        <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: white;">
 
           <div class="btn-group tabs" style="width:100%">
           <!-- Tab links -->
@@ -66,7 +67,7 @@ $("#menu-toggle").click(function(e) {
           <button class="tablinks btn btn-block" onclick="openCity(event,'Tokyo')">Priority</button>
           </div>
 
-          <!--  -->
+          <!-- TODO: REFACTOR open chat-messages to make automated pulls -->
           <div id="chatbox">
             <div id="friendslist">
               <div id="friends">
@@ -82,7 +83,6 @@ $("#menu-toggle").click(function(e) {
                   </p>
                   <div class="status available"></div>
                 </div>
-
                 <div class="friend">
                   <img src="static/images/captain-america.jpg">
                   <p>
@@ -91,7 +91,6 @@ $("#menu-toggle").click(function(e) {
                   </p>
                   <div class="status away"></div>
                 </div>
-
                 <div class="friend">
                   <img src="static/images/flying-falcon.jpg">
                   <p>
@@ -100,7 +99,6 @@ $("#menu-toggle").click(function(e) {
                   </p>
                   <div class="status inactive"></div>
                 </div>
-
                 <div class="friend">
                   <img src="static/images/black-widow.jpg">
                   <p>
@@ -109,7 +107,6 @@ $("#menu-toggle").click(function(e) {
                   </p>
                   <div class="status inactive"></div>
                 </div>
-
                 <div class="friend agileits">
                   <img src="static/images/iron-man.jpg">
                   <p>
@@ -123,8 +120,15 @@ $("#menu-toggle").click(function(e) {
           </div>
         </div>
 
-        <div class="col-5 col-sm-5 col-md-5" style="background: green  ;">span 4</div>
-        <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
+        <div class="col-5 col-sm-5 col-md-5" style="padding: 5px; background-color: green ;">
+          <div class="d-flex justify-content-between bd-highligh" style="background-color: white ;">
+            <div class="bd-highlight p-2 mr-auto">Dionysis Kalogeropoulos</div>
+            <div class="p-2 fa-bolt"> </div>
+            <div class="p-2 badge-secondary">New</div>
+          </div>
+        </div>
+
+      <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
       </div>
     </div>
   </div>

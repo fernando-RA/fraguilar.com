@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 
 /* ===== SIDE-MENU ===== */
 .col-1{
@@ -12,9 +17,9 @@ img{
 
 .menu {
   float: left;
-  height:100vh;
+  height: 100%;
   width: inherit;
-  background: #4768b5;
+  background: #25394F ;
   background: -webkit-linear-gradient(#4768b5, #35488e);
   background: -o-linear-gradient(#4768b5, #35488e);
   background: -moz-linear-gradient(#4768b5, #35488e);
@@ -39,17 +44,23 @@ img{
 }
 
 .menu .items .item-active {
-  background-color:#5172c3;
+  background-color:#5172C3;
   color: #FFF;
 }
 
 .menu .items .item:hover {
   cursor: pointer;
-  background-color: #4f6ebd;
+  background-color: #4F6EBD;
   color: #cfe5ff;
 }
 
+.badge-secondary{
+  border-radius: 9px;
+  background-color: #25394F;
 
+
+
+}
 
 
 /* Style the tab */
