@@ -20,120 +20,113 @@ $("#menu-toggle").click(function(e) {
 
 <body>
   <!-- Menu Navigation -->
-  <div class="sidebar-left">
-    <div class="col-1 col-sm-1 col-md-1">
-      <nav class="menu">
-        <ul class="items">
-          <li class="item">
-            <img src="https://windycitygreek.com/wp-content/uploads/2017/09/Greek-Start-up-Butlair-logo-min.png" class="img-circle img-responsive" alt="Logo">
-          </li>
-          <li class="item">
-            <i class="fa fa-home" aria-hidden="true"></i>
-          </li>
-          <li class="item">
-            <i class="fa fa-inbox" aria-hidden="true"></i>
-          </li>
-          <li class="item">
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-          </li>
-          <li class="item">
-            <i class="fa fa-gear" aria-hidden="true"></i>
-          </li>
-          <li class="item">
-            <i class="fa fa-magic" aria-hidden="true"></i>
-          </li>
-        </ul>
-      </nav>
-    </div>
+  <div class="col-1 col-sm-1 col-md-1 menu">
+    <ul class="items">
+      <li class="item">
+        <img src="https://windycitygreek.com/wp-content/uploads/2017/09/Greek-Start-up-Butlair-logo-min.png" class="img-circle img-responsive" alt="Logo">
+      </li>
+      <li class="item">
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </li>
+      <li class="item">
+        <i class="fa fa-inbox" aria-hidden="true"></i>
+      </li>
+      <li class="item">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+      </li>
+      <li class="item">
+        <i class="fa fa-gear" aria-hidden="true"></i>
+      </li>
+      <li class="item">
+        <i class="fa fa-magic" aria-hidden="true"></i>
+      </li>
+    </ul>
   </div>
 
   <!-- Page content -->
-  <div class="page-content-wrapper">
-    <div class="page-content inset">
+  <div class="inbox-header d-flex justify-content-between">
+    <p class="fa fa-th p-2 mr-auto"> Inbox </p>
+    <p class="fa fa-user p-2"> LOGGED USER </p>
+  </div>
 
-      <div class="inbox-header d-flex justify-content-between">
-        <p class="fa fa-th p-2"> Inbox </p>
-        <p class="fa fa-user p-2"> HERE GOES LOGGED USER </p>
+  <div class="row" id="screens">
+    <!-- Contacts Search & List -->
+    <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: white;">
+
+      <div class="btn-group tabs" style="width:100%">
+      <!-- Tab links -->
+      <button class="tablinks btn btn-block" onclick="openCity(event,'London')">Hotels</button>
+      <button class="tablinks btn btn-block" onclick="openCity(event,'Paris')">Inbox</button>
+      <button class="tablinks btn btn-block" onclick="openCity(event,'Tokyo')">Priority</button>
       </div>
 
-      <div class="row">
-        <!-- Contacts Search & List -->
-        <div class="col-3 col-sm-3 col-md-3"  id="inbox" style="background: white;">
+      <!-- TODO: REFACTOR open chat-messages to make automated pulls -->
+      <div id="chatbox">
+        <div id="friendslist">
+          <div id="friends">
+            <div class="searchfriend">
+              <input type="text" id="searchfield" value="Search contacts...">
+            </div>
 
-          <div class="btn-group tabs" style="width:100%">
-          <!-- Tab links -->
-          <button class="tablinks btn btn-block" onclick="openCity(event,'London')">Hotels</button>
-          <button class="tablinks btn btn-block" onclick="openCity(event,'Paris')">Inbox</button>
-          <button class="tablinks btn btn-block" onclick="openCity(event,'Tokyo')">Priority</button>
-          </div>
-
-          <!-- TODO: REFACTOR open chat-messages to make automated pulls -->
-          <div id="chatbox">
-            <div id="friendslist">
-              <div id="friends">
-                <div class="searchfriend">
-                  <input type="text" id="searchfield" value="Search contacts...">
-                </div>
-
-                <div class="friend w3layouts">
-                  <img src="static/images/winter-soldier.jpg" alt="bucky">
-                  <p>
-                    <strong class="name">Bucky Barnes</strong>
-                    <span>wintersoldier@gmail.com</span>
-                  </p>
-                  <div class="status available"></div>
-                </div>
-                <div class="friend">
-                  <img src="static/images/captain-america.jpg">
-                  <p>
-                    <strong class="name">Steve Rogers</strong>
-                    <span>captainamerica@gmail.com</span>
-                  </p>
-                  <div class="status away"></div>
-                </div>
-                <div class="friend">
-                  <img src="static/images/flying-falcon.jpg">
-                  <p>
-                    <strong class="name">Sam Wilson</strong>
-                    <span>flyingfalcon@gmail.com</span>
-                  </p>
-                  <div class="status inactive"></div>
-                </div>
-                <div class="friend">
-                  <img src="static/images/black-widow.jpg">
-                  <p>
-                    <strong class="name">Natasha Romanoff</strong>
-                    <span>blackwidow@gmail.com</span>
-                  </p>
-                  <div class="status inactive"></div>
-                </div>
-                <div class="friend agileits">
-                  <img src="static/images/iron-man.jpg">
-                  <p>
-                    <strong class="name">Tony Stark</strong>
-                    <span>imironman4u@gmail.com</span>
-                  </p>
-                  <div class="status inactive"></div>
-                </div>
-              </div>
+            <div class="friend w3layouts">
+              <img src="static/images/winter-soldier.jpg" alt="bucky">
+              <p>
+                <strong class="name">Bucky Barnes</strong>
+                <span>wintersoldier@gmail.com</span>
+              </p>
+              <div class="status available"></div>
+            </div>
+            <div class="friend">
+              <img src="static/images/captain-america.jpg">
+              <p>
+                <strong class="name">Steve Rogers</strong>
+                <span>captainamerica@gmail.com</span>
+              </p>
+              <div class="status away"></div>
+            </div>
+            <div class="friend">
+              <img src="static/images/flying-falcon.jpg">
+              <p>
+                <strong class="name">Sam Wilson</strong>
+                <span>flyingfalcon@gmail.com</span>
+              </p>
+              <div class="status inactive"></div>
+            </div>
+            <div class="friend">
+              <img src="static/images/black-widow.jpg">
+              <p>
+                <strong class="name">Natasha Romanoff</strong>
+                <span>blackwidow@gmail.com</span>
+              </p>
+              <div class="status inactive"></div>
+            </div>
+            <div class="friend agileits">
+              <img src="static/images/iron-man.jpg">
+              <p>
+                <strong class="name">Tony Stark</strong>
+                <span>imironman4u@gmail.com</span>
+              </p>
+              <div class="status inactive"></div>
             </div>
           </div>
         </div>
-
-        <div class="col-5 col-sm-5 col-md-5" style="padding: 5px; background-color: green ;">
-          <div class="d-flex justify-content-between bd-highligh" style="background-color: white ;">
-            <div class="bd-highlight p-2 mr-auto">Dionysis Kalogeropoulos</div>
-            <div class="p-2 fa-bolt"> </div>
-            <div class="p-2 badge-secondary">New</div>
-          </div>
-        </div>
-
-      <div class="col-4 col-sm-4 col-md-4" style="background: red  ;">span 4</div>
       </div>
     </div>
-  </div>
 
+    <div class="col-5 col-sm-5 col-md-5" style="padding: 0; background-color: green;">
+    <!-- TODO Collapse text TETEKJT...  -->
+      <div class="inline-flex d-flex justify-content-between" style="background-color: white; padding: 6px;">
+        <div class="bd-highlight p-2 mr-auto">Dionysis Kalogeropoulos</div>
+        <div class="p-2 fa fa-bolt" style="font-size: 18pt;"></div>
+        <div class="p-2 badge-secondary">Resolve</div>
+      </div>
+
+    </div>
+
+  <div class="col-4 col-sm-4 col-md-4" style="background: red ;">span 4</div>
+  </div>
 </div>
+
 </body>
 
 </html>

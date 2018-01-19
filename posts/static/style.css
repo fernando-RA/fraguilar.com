@@ -3,11 +3,12 @@ html, body {
     height: 100%;
 }
 
-
+/* TODO REFACTOR UNUSED CLASSES  */
 /* ===== SIDE-MENU ===== */
 .col-1{
   padding: 0px;
   min-height: 0px;
+  height: 100%;
 }
 
 img{
@@ -17,7 +18,6 @@ img{
 
 .menu {
   float: left;
-  height: 100%;
   width: inherit;
   background: #25394F ;
   background: -webkit-linear-gradient(#4768b5, #35488e);
@@ -57,9 +57,6 @@ img{
 .badge-secondary{
   border-radius: 9px;
   background-color: #25394F;
-
-
-
 }
 
 
@@ -83,12 +80,12 @@ img{
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tabs button:hover {
   background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tabs button.active {
   background-color: #ccc;
 }
 
@@ -107,12 +104,7 @@ img{
 }
 
 .inbox-header {
-  border: 1px;
-  border-color: black;
-}
-.inbox-header p {
-  margin: auto;
-  padding: 10px;
+  padding: 5px;
   font-size: 25px;
 }
 
@@ -197,6 +189,8 @@ span.friends {
   background: #EEE;
 }
 
+
+/* ===== Search Bar ===== */
 #search {
   background: #333 url("../images/search.png") -11px 0 no-repeat;
   height: 60px;
@@ -219,4 +213,8 @@ span.friends {
 
 #searchfield:focus {
   outline: 0;
+}
+/* ===== Screen Rows ===== */
+#screens{
+  margin: 0px;
 }
