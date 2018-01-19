@@ -218,3 +218,135 @@ span.friends {
 #screens{
   margin: 0px;
 }
+
+/* ===== CHAT MESSAGES ===== */
+#chat-messages {
+    opacity: 0;
+    margin-top: 30px;
+    width: 70%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 20px;
+    -webkit-transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -moz-transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -ms-transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -o-transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+}
+
+/*--w3layouts--*/
+/*--agileits--*/
+#chat-messages.animate {
+    opacity: 1;
+    margin-top: 0;
+}
+
+#chat-messages label {
+    color: #777;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0;
+    width: 290px;
+    display: block;
+}
+
+#chat-messages div.message {
+    padding: 0 0 30px 58px;
+    clear: both;
+    margin-bottom: 45px;
+}
+
+#chat-messages div.message.right {
+    padding: 0 58px 30px 0;
+    margin-right: -19px;
+    margin-left: 19px;
+}
+
+#chat-messages .message img {
+    float: left;
+    margin-left: -38px;
+    border-radius: 50%;
+    width: 30px;
+    margin-top: 12px;
+}
+
+#chat-messages div.message.right img {
+    float: right;
+    margin-left: 0;
+    margin-right: -38px;
+}
+
+.message .bubble {
+    background: #333;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 13px;
+    border-radius: 5px;
+    color: #CCC;
+    /*--w3layouts--*/
+    /*--agileits--*/
+    position: relative;
+    float: left;
+}
+
+#chat-messages div.message.right .bubble {
+    float: right;
+    border-radius: 5px 5px 0px 5px ;
+}
+
+.bubble span {
+    color: #777;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    bottom: -22px;
+}
+
+#sendmessage {
+    height: 60px;
+    border-top: 1px solid #e7ebee;
+    position: absolute;
+    bottom: 0;
+
+    width: 70%;
+    background: #333;
+    padding-bottm: 50px;
+    float:left;
+}
+
+#sendmessage input {
+    background: #333;
+    margin: 21px 0 0 21px;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    color: #aab8c2;
+}
+
+#sendmessage input:focus {
+    outline: 0;
+}
+
+#sendmessage button {
+    background: url("../images/send.png") 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    /*--w3layouts--*/
+    /*--agileits--*/
+    right: 15px;
+    top: 23px;
+    border: none;
+}
+
+#sendmessage button:hover {
+    cursor: pointer;
+}
+
+#sendmessage button:focus {
+    outline: 0;
+}
