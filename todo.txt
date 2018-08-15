@@ -1,0 +1,4 @@
+1. Setup backbone and layouts building block
+2. design project pages
+3. Apply p5 sketches
+4. google analytics
