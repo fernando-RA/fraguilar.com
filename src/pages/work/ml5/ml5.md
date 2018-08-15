@@ -11,4 +11,3 @@ description: "ml5.js aims to make machine learning approachable for a broad audi
 thumbnail: "thumbnail.png"
 type: "main"
 ---
-

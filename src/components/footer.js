@@ -15,7 +15,7 @@ const Footer = ({siteTitle}) => (
           <h5>Contact</h5>
             <p>Send me a message at:</p>
             <p> fernando@aguilar.net.br</p>
-            <p><a href="https:://twitter.com/fernand0aguilar">@fernand0aguilar</a></p>
+            <p><a href="https://twitter.com/fernand0aguilar">@fernand0aguilar</a></p>
         </div>
       </div>
     </div>

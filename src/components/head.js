@@ -6,7 +6,7 @@ import favicon from './images/favicon.ico';
 import image from './images/01.jpg';
 
 const Head = ({data}) => {
-  const title = data.site.siteMetadata;
+  const title = data.site.siteMetadata.title;
   const keywords = data.site.siteMetadata.keywords;
   const description = data.site.siteMetadata.description;
   const url = data.site.siteMetadata.url;
@@ -15,7 +15,7 @@ const Head = ({data}) => {
 
   return (
     <Helmet>
-    <title>{'title'}</title>
+    <title>{title}</title>
     <meta name="description" content={description}/>
     <meta name="image" content={image}/>
     <meta name="keywords" content={keywords}/>
