@@ -1,4 +1,9 @@
-1. Setup backbone and layouts building block
-2. design project pages
-3. Apply p5 sketches
-4. google analytics
+DONE 1. Setup backbone and layouts building block
+---
+2. design project pages -> way to create a p5 Sketch
+4. Google Analytics
+5. Improve about page with banner and blog cards
+6. Fill Work data with actual information.
+7. Fill experiments with actual information
+8. SEO -> show on google.
+9. design icon
