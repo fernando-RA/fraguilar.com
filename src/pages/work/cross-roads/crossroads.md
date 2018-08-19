@@ -1,6 +1,6 @@
 ---
 title: "CrossRoads Game"
-path: "https://github.com/fernand0aguilar/CrossRoads-IJE"
+path: "/CrossRoads"
 date: '2017-06-01'
 url: ""
 code: "https://github.com/fernand0aguilar/CrossRoads-IJE"

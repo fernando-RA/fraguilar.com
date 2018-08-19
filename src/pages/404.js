@@ -1,4 +1,5 @@
 import React from 'react'
+// TODO -> https://medium.com/front-end-hacking/learning-the-p5-canvas-drawing-library-in-es6-and-webpack-bf514a679544
 
 const NotFoundPage = () => (
   <div className="row NotFound">
