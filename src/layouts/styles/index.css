@@ -1,365 +1,359 @@
 @font-face {
-    font-family: "Benton-Light";
-    font-weight: light;
-    src: url("fonts/bentonsans-light-webfont.eot?") format("eot"), url("fonts/bentonsans-light-webfont.woff2") format("woff2"), url("fonts/bentonsans-light-webfont.woff") format("woff"), url("fonts/bentonsans-light-webfont.ttf") format("truetype"), url("fonts/bentonsans-light-webfont.svg#Benton-Light") format("svg");
+  font-family: "Benton-Light";
+  font-weight: light;
+  src: url("fonts/bentonsans-light-webfont.eot?") format("eot"), url("fonts/bentonsans-light-webfont.woff2") format("woff2"), url("fonts/bentonsans-light-webfont.woff") format("woff"), url("fonts/bentonsans-light-webfont.ttf") format("truetype"), url("fonts/bentonsans-light-webfont.svg#Benton-Light") format("svg");
 }
 
 @font-face {
-    font-family: "Benton-Medium";
-    font-weight: light;
-    src: url("fonts/bentonsans-medium-webfont.eot?") format("eot"), url("fonts/bentonsans-medium-webfont.woff2") format("woff2"), url("fonts/bentonsans-medium-webfont.woff") format("woff"), url("fonts/bentonsans-medium-webfont.ttf") format("truetype"), url("fonts/bentonsans-medium-webfont.svg#Benton-Medium") format("svg");
+  font-family: "Benton-Medium";
+  font-weight: light;
+  src: url("fonts/bentonsans-medium-webfont.eot?") format("eot"), url("fonts/bentonsans-medium-webfont.woff2") format("woff2"), url("fonts/bentonsans-medium-webfont.woff") format("woff"), url("fonts/bentonsans-medium-webfont.ttf") format("truetype"), url("fonts/bentonsans-medium-webfont.svg#Benton-Medium") format("svg");
 }
 
 * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,p, tr, th {
-    font-family: "Benton-Light", serif;
-    margin: 0px;
-    padding: 0px;
+h1, h2, h3, h4, h5, h6, p, tr, th {
+  font-family: "Benton-Light", serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-ul, li{
-    font-family: "Benton-Light", serif;
+ul, li {
+  font-family: "Benton-Light", serif;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 0.95em;
-    font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
-    letter-spacing: 0.15vh;
-    padding-top: 10px;
-    border-top: 1px solid black;
-    display: inline-block;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 0.95em;
+  font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.15vh;
+  padding-top: 10px;
+  border-top: 1px solid black;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 0.9em;
-    font-family: "Benton-Light", Helvetica, Arial, sans-serif;
-    margin: 2px 0px 0px 0px;
-    /* background: rgba(230, 230, 230, 0.877); */
-    padding: 2px 4px; 
-    color: rgb(2, 2, 2);
-    display: inline-block;
+  font-weight: 300;
+  font-size: 0.9em;
+  font-family: "Benton-Light", Helvetica, Arial, sans-serif;
+  margin: 2px 0px 0px 0px;
+  /* background: rgba(230, 230, 230, 0.877); */
+  padding: 2px 4px;
+  color: rgb(2, 2, 2);
+  display: inline-block;
 }
 
 h3 {
-    display: inline;
-    letter-spacing: 2px;
-    margin: 0px 20px 0px 0px;
-    padding-bottom: 5px;
-    color: #171717;
-    text-transform: uppercase;
-    font-size: 20px;
+  display: inline;
+  letter-spacing: 2px;
+  margin: 0px 20px 0px 0px;
+  padding-bottom: 5px;
+  color: #171717;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 h4 {
-    color: grey;
-    font-size: 13px;
-    font-weight: 100;
-    margin: 0.8vh 0px;
+  color: grey;
+  font-size: 13px;
+  font-weight: 100;
+  margin: 0.8vh 0px;
 }
 
 h4:hover {
-    color: rgb(0, 189, 116);
-    cursor: default;
+  color: rgb(0, 189, 116);
+  cursor: default;
 }
 
 h5 {
-    font-size: 0.8em;
-    margin: 0px;
-    font-weight: 300;
+  font-size: 0.8em;
+  margin: 0px;
+  font-weight: 300;
 }
 
 h6 {
-    display: inline;
-    letter-spacing: 2px;
-    margin: 0px 20px 0px 0px;
-    padding: 8px 12px;
-    color: grey;
-    text-transform: uppercase;
-    border: 1px solid rgb(214, 214, 214);
+  display: inline;
+  letter-spacing: 2px;
+  margin: 0px 20px 0px 0px;
+  padding: 8px 12px;
+  color: grey;
+  text-transform: uppercase;
+  border: 1px solid rgb(214, 214, 214);
 }
 
-code{
-    display: block;
+code {
+  display: block;
 }
 
 h6:hover {
-    background: black !important;
-    color: white  !important;
+  background: black !important;
+  color: white !important;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 header {
-    margin-top: 6vh;
-    margin-bottom: 7vh;
+  margin-top: 6vh;
+  margin-bottom: 7vh;
 }
 
 .work p {
-    font-size: 13px;
-    line-height: 17px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .project p {
-    font-size: 13px;
-    line-height: 17px;
+  font-size: 13px;
+  line-height: 17px;
 }
 
 #back h6 {
-    border-bottom: 2px solid grey;
+  border-bottom: 2px solid grey;
 }
 
 li {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .Menu {
-    padding-top: 5px;
-    text-align: right;
-    cursor: pointer;
+  padding-top: 5px;
+  text-align: right;
+  cursor: pointer;
 }
 
 .Menu h4 {
-    display: inline;
-    padding: 0px 10px;
-    color: black;
-    scroll-behavior: smooth;
-    cursor: pointer;
+  display: inline;
+  padding: 0px 10px;
+  color: black;
+  scroll-behavior: smooth;
+  cursor: pointer;
 }
 
 .MainContent {
-    background: whitesmoke;
-    margin: 0px;
-    
+  background: whitesmoke;
+  margin: 0px;
 }
 
-.Experiments{
-    background: rgb(230, 230, 230) !important;
-    padding: 40px 0px 40px 0px;
-    margin: 60px 0px 0px 0px;
+.Experiments {
+  background: rgb(230, 230, 230) !important;
+  padding: 40px 0px 40px 0px;
+  margin: 60px 0px 0px 0px;
 }
 
-.Experiments h2{
-    font-size: 18px;
-    background: black;
-    color: white;
-    margin: 1rem 0px;
+.Experiments h2 {
+  font-size: 18px;
+  background: black;
+  color: white;
+  margin: 1rem 0px;
 }
 
-.Experiments h3{
-    font-size: 12px;
+.Experiments h3 {
+  font-size: 16px;
 }
 
-.Experiments p{
-    font-size: 12px;
-    line-height: 16px;
+.Experiments p {
+  font-size: 12px;
+  line-height: 16px;
 }
 
-.Experiment{
-    height: 380px;
+.Experiment {
+  height: 380px;
 }
 
 .img-responsive {
-    width: 100%;
-    max-width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .project {
-    padding-top: 10px;
-    margin-top: 0px;
+  padding-top: 10px;
+  margin-top: 0px;
 }
 
 .project-img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .work {
-    margin-top: 50px;
-    margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 #parra {
-    color: grey;
-    font-size: 1.5vh;
-    margin: 0;
-    padding: 0;
+  color: grey;
+  font-size: 1.5vh;
+  margin: 0;
+  padding: 0;
 }
 
 #back {
-    margin: 20px 0px 0px 0px;
-    display: inline-block;
-    padding: 0px 0px 3px 0px;
+  margin: 20px 0px 0px 0px;
+  display: inline-block;
+  padding: 0px 0px 3px 0px;
 }
 
 @media all and (max-width: 550px) {
-    .Menu {
-        text-align: left;
-        margin-bottom: 30px;
-    }
-
-    .projectLink{
-        margin-top: 20px;
-    }
-
-    .projectLink h6{
-        padding: 3px 5px;
-    }
+  .Menu {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .projectLink {
+    margin-top: 20px;
+  }
+  .projectLink h6 {
+    padding: 3px 5px;
+  }
 }
 
-.ProjectDescriptionInMain{
-    line-height: 20px !important;
+.ProjectDescriptionInMain {
+  line-height: 20px !important;
 }
 
-footer{
-    text-align: center;
-    margin: 60px 0px 50px 0px;
+footer {
+  text-align: center;
+  margin: 60px 0px 50px 0px;
 }
 
-footer img{
-    width: 100px;
+footer img {
+  width: 100px;
 }
 
-.Project{
-    padding: 40px 0px 50px 0px;
+.Project {
+  padding: 40px 0px 50px 0px;
 }
 
-.Project p{
-    line-height: 24px;
-    margin: 20px 0px 0px 0px;
+.Project p {
+  line-height: 24px;
+  margin: 20px 0px 0px 0px;
 }
 
-.Project h1{
-    margin: 20px 0px 30px 0px;
-    display: block;
-    border: none;
-    font-size: 21px;
+.Project h1 {
+  margin: 20px 0px 30px 0px;
+  display: block;
+  border: none;
+  font-size: 21px;
 }
 
-.Project h2{
-    font-size: 17px;
-    display: block;
+.Project h2 {
+  font-size: 17px;
+  display: block;
 }
 
 .videoWrapper {
-    position: relative;
-    margin-top: 20px;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
+
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.Contact{
-    text-align: right;
+.Contact {
+  text-align: right;
 }
 
-.Contact h5{
-    font-size: 17px;
-    font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
+.Contact h5 {
+  font-size: 17px;
+  font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
 }
 
 .Contact p {
-    margin: 2px 0px 0px 0px;
-    font-size: 14px;
+  margin: 2px 0px 0px 0px;
+  font-size: 14px;
 }
 
-.Contact p a:hover{
-    color:blue;
+.Contact p a:hover {
+  color: blue;
 }
 
-.sequential_images{
-    margin-top: 50px;
+.sequential_images {
+  margin-top: 50px;
 }
 
-#about{
-    padding: 60px 0px 60px 0px;
+#about {
+  padding: 60px 0px 60px 0px;
 }
 
-.AboutDescription{
-    margin: 3rem 0px 0px 0px;
+.AboutDescription {
+  margin: 3rem 0px 0px 0px;
 }
 
-.AboutDescription p{
-    margin: 1rem 0px 0px 0px;
-    line-height: 24px;
+.AboutDescription p {
+  margin: 1rem 0px 0px 0px;
+  line-height: 24px;
 }
 
-.AboutDescription p a{
-    border-bottom: 1px solid rgb(26, 212, 188);
+.AboutDescription p a {
+  border-bottom: 1px solid rgb(26, 212, 188);
 }
 
-.SocialIcon{
-    width: 16px;
+.SocialIcon {
+  width: 16px;
 }
 
-.Blog h1{
-    border: none;
-    margin: 4rem 0px 20px 0px;
-    display: block;
+.Blog h1 {
+  border: none;
+  margin: 4rem 0px 20px 0px;
+  display: block;
 }
 
 .BlogCard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 0px !important;
-    cursor: pointer !important;
-    margin: 0px 0px 2rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px !important;
+  cursor: pointer !important;
+  margin: 0px 0px 2rem 2rem;
 }
 
-.BlogCard h4{
-    font-size: 16px;
-    color: black;
-    font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
-    cursor: pointer !important;
+.BlogCard h4 {
+  font-size: 16px;
+  color: black;
+  font-family: "Benton-Medium", Helvetica, Arial, sans-serif;
+  cursor: pointer !important;
 }
 
-.BlogCard p{
-    font-size: 13px;
-    color: rgb(71, 69, 69);
-    cursor: pointer !important;
+.BlogCard p {
+  font-size: 13px;
+  color: rgb(71, 69, 69);
+  cursor: pointer !important;
 }
 
-.BlogCardText {   
-    cursor: pointer !important;
-    padding: 20px 20px 30px 20px; 
+.BlogCardText {
+  cursor: pointer !important;
+  padding: 20px 20px 30px 20px;
 }
 
-.BannerAbout{
-    width: 100%;
+.BannerAbout {
+  width: 100%;
 }
 
-.NotFound{
-    padding: 5rem 0px 4rem 0px;
+.NotFound {
+  padding: 5rem 0px 4rem 0px;
 }
 
-.NotFound p{
-    margin: 20px 0px;
+.NotFound p {
+  margin: 20px 0px;
 }
