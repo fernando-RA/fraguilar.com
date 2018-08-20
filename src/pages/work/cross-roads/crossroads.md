@@ -9,7 +9,7 @@ year: "2017"
 category: 'Indie Game'
 description: "The Goal is to guide the hero in his quest for the Magic Chalice.
 When challenges arise, help is needed, so we invoke allies and new powers.
-This is an open-source hack 'n slash platform made in C++ for a multi-disciplinary course on Introduction to Electronic Games."
+This is an open-source hack 'n slash made in C++ for a multi-disciplinary course on Intro to Electronic Games."
 thumbnail: "capa.png"
 type: "experiment"
 ---
