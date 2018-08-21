@@ -79,9 +79,20 @@ const Experiment = ({ path, title, img, category, code, url, description, more, 
 const SelectedItem = ({ path, title, img, category, code, url, description, more, year, }) => {
   let to = path;
   let linkName = 'View More';
+  let codeButton = 'Code';
+
   if (url) {
-    linkName = 'www↦'
-    to = url;
+    if(url.includes("youtube")){
+      linkName = "youtube video";
+    }
+    else{
+      linkName = 'www↦'
+      to = url;
+    }
+  }
+
+  if(code.includes("youtube")){
+    codeButton = "youtube video";
   }
   return (
     <div className="col-xs-12 col-md-8 col-sm-offset-1 col-md-offset-2 work" >
@@ -102,7 +113,7 @@ const SelectedItem = ({ path, title, img, category, code, url, description, more
             <a href={to}>
               <h6>{linkName}</h6>
             </a>
-            {code ? <a href={code}><h6>code</h6></a> : null}
+            {code ? <a href={code}><h6>{codeButton}</h6></a> : null}
           </div>
         </div>
       </div>

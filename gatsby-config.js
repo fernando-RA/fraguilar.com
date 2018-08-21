@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/',
   siteMetadata: {
     title: 'Fernando Ribeiro Aguilar',
-    description: 'Fernando Ribeiro Aguilar. Building software as poetry, making Art using Technology.',
+    description: 'Fernando Ribeiro Aguilar. Having Fun with Code. Using Technology to create stuff.',
     keywords: 'Fernando, Ribeiro, Aguilar, machine, learning, artificial intelligence, ml, ai, art, Technology, software',
     url: "https://fraguilar.com",
     userTwitter: "@fernand0aguilar"

@@ -7,7 +7,7 @@ code: ""
 more: ""
 year: "2017"
 category: 'Machine Learning Tool'
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+description: "Model to identify a color given it's rgb values. It is a dense neural network trained with a crowd-sourced data on color-labels. Made with tensorflow.js it has acuracy of 90% and can classify colors given  in the range (0, 255)."
 thumbnail: "thumbnail.png"
 type: "experiment"
 ---

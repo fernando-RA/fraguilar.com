@@ -7,7 +7,7 @@ code: "https://github.com/fernand0aguilar/MaisMorra"
 more: ""
 year: "2017"
 category: "Indie Game"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+description: "Minimask was was born with the name 'MaisMorra'. Created in the Epic Game Jam, a competition to build and market a game from scratch in 48 hours. We won the second best game and with that access to the final on Rock in Rio/2017. After the game jam we worked a lot for the final. Making 3 public events and one Minimask eChampionship. It was also featured on the doccumentary Indie GameDev Brasil."
 thumbnail: "capa.jpg"
 type: "main"
 ---

@@ -27,9 +27,9 @@ const Header = ({siteTitle}) => (
     <div className="container">
       <div className="row">
         <div className="col-xs-10 col-xs-offset-1">
-          <h2>Making art using technology.</h2>
+          <h2>Having fun using technology.</h2>
         <br/>
-        <h2>Creative Programmer @ <a href="---"> Insert Company Here, Resonance </a></h2>
+        <h2>Human Being @ <a href="---"> Resonance </a></h2>
       </div>
     </div>
   </div>

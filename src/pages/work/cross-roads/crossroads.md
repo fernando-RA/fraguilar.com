@@ -10,6 +10,6 @@ category: 'Indie Game'
 description: "The Goal is to guide the hero in his quest for the Magic Chalice.
 When challenges arise, help is needed, so we invoke allies and new powers.
 This is an open-source hack 'n slash made in C++ for a multi-disciplinary course on Intro to Electronic Games."
-thumbnail: "capa.png"
+thumbnail: "crossroads.gif"
 type: "experiment"
 ---

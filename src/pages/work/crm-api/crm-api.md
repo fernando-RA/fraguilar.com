@@ -1,13 +1,13 @@
 ---
-title: "CRM RestAPI"
+title: "API CRM Service"
 path: "/CRM-API"
-date: '2018-04-01'
-url: ""
-code: ""
+date: '2018-05-30'
+url: "https://github.com/fernand0aguilar/api-crm-service/blob/master/README.md"
+code: "https://github.com/fernand0aguilar/api-crm-service"
 more: ""
-year: "2017"
+year: "2018"
 category: 'WebApp'
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+description: "CRM Restful API is an application developed with Java/SpingBoot to manage data for small shops. It store, secures and provide endpoints to the functionalities. It's modular architecture allows scalability and efficiency."
 thumbnail: "thumbnail.png"
 type: "experiment"
 ---
