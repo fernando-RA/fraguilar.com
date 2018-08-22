@@ -1,9 +1,10 @@
 DONE 1. Setup backbone and layouts building block
+DONE 6. Fill Work data with actual information.
+DONE 7. Fill experiments with actual information.
+DONE 9. design icon.
+
 ---
 2. design project pages -> way to create a p5 Sketch
 4. Google Analytics
 5. Improve about page with banner and blog cards
-DOING 6. Fill Work data with actual information.
-DOING 7. Fill experiments with actual information
 8. SEO -> show on google.
-9. design icon
