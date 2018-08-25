@@ -87,8 +87,8 @@ const SelectedItem = ({ path, title, img, category, code, url, description, more
     }
     else{
       linkName = 'www↦'
-      to = url;
     }
+    to = url;
   }
 
   if(code.includes("youtube")){

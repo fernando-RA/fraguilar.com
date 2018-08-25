@@ -8,6 +8,6 @@ more: ""
 year: "2018"
 category: 'Artwork'
 description: "Repository with 30+ projects varying from physics simulations, Visual Algorithms or Other Projects."
-thumbnail: "thumbnail.png"
+thumbnail: "bigfloweroflife.gif"
 type: "experiment"
 ---
