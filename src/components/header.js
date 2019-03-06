@@ -17,6 +17,9 @@ const Header = ({siteTitle}) => (
           <Link to="/#experiments">
             <h4>Experiments</h4>
           </Link>
+          <Link to="/curriculum">
+            <h4>Curriculum</h4>
+          </Link>
           <Link to="/about">
             <h4>About</h4>
           </Link>
@@ -29,7 +32,7 @@ const Header = ({siteTitle}) => (
         <div className="col-xs-10 col-xs-offset-1">
           <h2>Having fun using technology.</h2>
         <br/>
-        <h2>Human Being @ <a href="---"> Resonance </a></h2>
+        <h2>Human Being @ Life</h2>
       </div>
     </div>
   </div>
