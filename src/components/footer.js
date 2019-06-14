@@ -14,7 +14,6 @@ const Footer = ({siteTitle}) => (
         <div className="col-xs-7 Contact">
           <h5>Contact</h5>
             <p>Send me a message at:</p>
-            <p> fernando@aguilar.net.br</p>
             <p><a href="https://twitter.com/fernand0aguilar">@fernand0aguilar</a></p>
         </div>
       </div>
