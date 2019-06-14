@@ -24,7 +24,7 @@ const About = () => (
           with a higher sense of purpose. His work has been shown internationally across Brazil and Europe,
           including at the Cultural Complex of Republic, #16 Art, Media Lab/UnB, Rock in Rio, Planetarium Brasilia and more.
         </p>
-        <p>fernando@aguilar.net.br</p>
+        <p>fernando.aguilar@hotmail.com.br</p>
         <p>
           <a href="https://twitter.com/fernand0aguilar">@fernand0aguilar</a>
         </p>
