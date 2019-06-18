@@ -7,7 +7,7 @@ code: "https://github.com/fernand0aguilar/p5-projects"
 more: ""
 year: "2018"
 category: 'Artwork'
-description: "Repository with 30+ projects varying from physics simulations, Visual Algorithms or Other Projects."
+description: "Repository projects varying from physics simulations, Visual Algorithms or Computational Art"
 thumbnail: "bigfloweroflife.gif"
 type: "experiment"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Cyberflor"
+title: "Cyber Flower"
 path: "/cyberflor"
 date: '2017-06-01'
 url: "https://art.medialab.ufg.br/up/779/o/25_-_Orqui%CC%81dea_natural_artificial_-_Suzete_Venturelli.pdf"

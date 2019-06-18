@@ -1,16 +1,16 @@
 ---
 title: "Medium.com"
 path: "/medium"
-date: '2018-01-01'
-url: "https://medium.com/@fernand0aguilar"
+date: '2019-12-01'
+url: "https://medium.com/@fraguilar"
 code: ""
 more: ""
 year: "2018"
 category: 'Writing'
-description: "Published More than 250 articles
-✏️ Developed strong communication skills
-✏️ Grew 1.4k followers in the last 3 months
-✏️ Top writer in art, travel and psychology"
+description: "400+ Published articles
+✏️ Grew a 2k followers community
+✏️ Top writer in art, travel and psychology
+✏️ Strong English communication skills developed"
 thumbnail: "thumbnail.png"
 type: "experiment"
 ---
