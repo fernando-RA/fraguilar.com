@@ -64,7 +64,7 @@ const About = () => (
       </div>
     </div>
     <div className='row'>
-      <div className="col-xs-10 col-xs-offset-1 col-sm-offset-2 Blog">
+      <div className="col-xs-10 col-xs-offset-1 col-sm-offset-2 Blog" id="blog">
         <h1>Recent Blog Posts</h1>
         {BLOG_ITEMS.map(i => <BlogCard
           key={i.title}

@@ -7,7 +7,7 @@ code: "https://github.com/fernand0aguilar/react-tindog"
 more: ""
 year: "2018"
 category: 'WebApp'
-description: "Tinder for Dogs "
+description: "Tinder for Dogs, built with React"
 thumbnail: "thumbnail.png"
 type: "experiment"
 ---

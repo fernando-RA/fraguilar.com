@@ -14,14 +14,14 @@ const Header = ({siteTitle}) => (
           <Link to="/#work">
             <h4>Work</h4>
           </Link>
-          <Link to="/#experiments">
-            <h4>Experiments</h4>
-          </Link>
           <Link to="/curriculum">
             <h4>Curriculum</h4>
           </Link>
           <Link to="/about">
             <h4>About</h4>
+          </Link>
+          <Link to="/about/#blog">
+            <h4>Blog</h4>
           </Link>
         </div>
       </div>
