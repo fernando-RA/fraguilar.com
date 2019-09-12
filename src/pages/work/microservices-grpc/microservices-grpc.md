@@ -9,5 +9,5 @@ year: "2019"
 category: 'WebApp'
 description: "This repository is an implementation of two different services via gRPC. The first microservice is written in python and applies discounts to the price of a product. The second service, PRODUCTS LISTING is written in go and returns a list of products exposed on a REST API. "
 thumbnail: "grpc.png"
-type: "main"
+type: "experiment"
 ---
