@@ -22,7 +22,7 @@ const BLOG_ITEMS = [
       'https://chatbotslife.com/the-most-mind-blowing-experience-ever-39178da8bef8',
   },
   {
-    title: 'How To Use The Law of Attraction In Your Life.',
+    title: 'Who am I and How I Got Here?',
     author: 'Fernando Aguilar',
     authorImg: capa,
     img: blog2,
