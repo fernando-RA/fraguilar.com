@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const BlogCard = ({title, description, img, user, link}) => (
   <div className="col-xs-9 col-sm-3 BlogCard">

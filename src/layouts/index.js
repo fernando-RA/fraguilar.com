@@ -11,38 +11,29 @@ import './styles/grid.css'
 
 class Layout extends React.Component {
   render() {
-    const { children, data, location } = this.props;
+    const { children } = this.props;
     let isWorkshopPage = false;
 
-    if (location.pathname.includes('/workshops')) {
+    if (window.location.pathname.includes('/workshops')) {
       isWorkshopPage = true;
     }
 
     return (
       <div>
-        <Head data={data}/>
-        {isWorkshopPage ? null : <Header siteTitle={data.site.siteMetadata.title}/>}
+        <Head/>
+        <Header/>
         <div className='MainContent'>
-          {children()}
+          { children }
         </div>
-        {isWorkshopPage ? null : <Footer/>}
+        <Footer/>
       </div>
     )
   }
 }
 
 Layout.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.array
 }
 
 export default Layout
 
-export const query = graphql `
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

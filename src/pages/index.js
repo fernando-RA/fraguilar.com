@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import Link from 'gatsby-link'
-
+import { graphql } from 'gatsby'
+import Layout from '../layouts'
 
 class IndexPage extends Component {
   render() {
@@ -10,7 +10,7 @@ class IndexPage extends Component {
     const main = projects.filter(({node}) => node.frontmatter.type === 'main')
     const experiments = projects.filter(({node}) => node.frontmatter.type === 'experiment')
     return (
-      <div>
+      <Layout>
         <div className='container-fluid works' id="work">
           {main.map(({node}, i) => (
             <SelectedItem
@@ -52,18 +52,14 @@ class IndexPage extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Layout>
     )
   }
 }
 
 const Experiment = ({ path, title, img, category, code, url, description, more, year, }) => {
   let to = path;
-  let linkName = 'View Project';
-  if (url) {
-    linkName = 'www↦'
-    to = url;
-  }
+
   return (
     <div className="col-xs-8 col-sm-3 Experiment">
       <a href={to}>

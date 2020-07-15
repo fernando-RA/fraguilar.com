@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({siteTitle}) => (
+const Header = () => (
   <header>
     <div className="container">
       <div className="row">
         <div className="cols-xs-3 col-sm-6 col-xs-offset-1">
           <Link to="/">
-            <h1>{siteTitle}</h1>
+            <h1>Fernando Ribeiro Aguilar</h1>
           </Link>
         </div>
         <div className="col-xs-2 col-sm-3 Menu">
@@ -20,7 +20,7 @@ const Header = ({siteTitle}) => (
           <Link to="/about">
             <h4>About</h4>
           </Link>
-          <Link to="/about/#blog">
+          <Link to="https://medium.com/@fraguilar" target="_blank">
             <h4>Blog</h4>
           </Link>
         </div>

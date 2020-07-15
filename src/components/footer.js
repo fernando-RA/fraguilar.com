@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import darkWallet from './images/darkwallet.jpg';
 

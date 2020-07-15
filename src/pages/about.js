@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
+import Layout from '../layouts'
 import BlogCard from './../components/blogCard'
 
 import banner from './../components/images/banner.jpg'
@@ -42,6 +42,7 @@ const BLOG_ITEMS = [
 ]
 
 const About = () => (
+  <Layout>
   <div className="container-fluid works" id="about">
     <div className="row">
       <div className="col-xs-offset-2 col-xs-8">
@@ -70,7 +71,7 @@ const About = () => (
       </div>
     </div>
     <div className="row">
-      <div className="col-xs-10 col-xs-offset-1 col-sm-offset-2 Blog" id="blog">
+      <div className="col-xs-10 col-xs-offset-1 col-sm-offset-2 Blog">
         <h1>Recent Blog Posts</h1>
         {BLOG_ITEMS.map(i => (
           <BlogCard
@@ -86,6 +87,7 @@ const About = () => (
       </div>
     </div>
   </div>
+  </Layout>
 )
 
 export default About

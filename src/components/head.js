@@ -1,38 +1,55 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
+import React from 'react'
+import Helmet from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
 
-import favicon from './images/favicon.ico';
-import image from './images/01.jpg';
+import favicon from './images/favicon.ico'
+import image from './images/01.jpg'
 
-const Head = ({data}) => {
-  const title = data.site.siteMetadata.title;
-  const keywords = data.site.siteMetadata.keywords;
-  const description = data.site.siteMetadata.description;
-  const url = data.site.siteMetadata.url;
-  const userTwitter = data.site.siteMetadata.userTwitter;
+const Head = () => (
+  <StaticQuery
+    query={graphql `
+      query SiteHeadQuery {
+        site {
+          siteMetadata {
+            title
+            keywords
+            description
+            url
+            userTwitter
+          }
+        }
+      }
+    `}
+    render={data => (
+      <Helmet>
+        <title>{data.site.siteMetadata.title}</title>
+        <meta name="description" content={data.site.siteMetadata.description} />
+        <meta name="image" content={image} />
+        <meta name="keywords" content={data.site.siteMetadata.keywords} />
+        <link rel="icon" type="image/png" fluid="16x16" href={favicon} />
 
+        <meta property="og:url" content={data.site.siteMetadata.url} />
+        <meta property="og:title" content={data.site.siteMetadata.title} />
+        <meta
+          property="og:description"
+          content={data.site.siteMetadata.description}
+        />
+        <meta property="og:image" content={image} />
 
-  return (
-    <Helmet>
-    <title>{title}</title>
-    <meta name="description" content={description}/>
-    <meta name="image" content={image}/>
-    <meta name="keywords" content={keywords}/>
-    <link rel="icon" type="image/png" sizes="16x16" href={favicon}/>
-
-    <meta property="og:url" content={url}/>
-    <meta property="og:title" content={title}/>
-    <meta property="og:description" content={description}/>
-    <meta property="og:image" content={image}/>
-
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:creator" content={userTwitter}/>
-    <meta name="twitter:title" content={title}/>
-    <meta name="twitter:description" content={description}/>
-    <meta name="twitter:image" content={image}/>
-    </Helmet>
-  )
-}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:creator"
+          content={data.site.siteMetadata.userTwitter}
+        />
+        <meta name="twitter:title" content={data.site.siteMetadata.title} />
+        <meta
+          name="twitter:description"
+          content={data.site.siteMetadata.description}
+        />
+        <meta name="twitter:image" content={image} />
+      </Helmet>
+    )}
+  ></StaticQuery>
+)
 
 export default Head
