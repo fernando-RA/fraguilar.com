@@ -5,6 +5,7 @@ import BlogCard from './../components/blogCard'
 
 import banner from './../components/images/banner.jpg'
 import github from './../components/images/github.png'
+import twitter from './../components/images/darkwallet.jpg'
 
 import capa from '../components/images/capa.jpg'
 import blog1 from '../components/images/blog1.jpeg'
@@ -60,13 +61,14 @@ const About = () => (
           Cultural Complex of Republic, #16 Art, Media Lab/UnB, Rock in Rio,
           Planetarium Brasilia and more.
         </p>
-        <p>fernando.aguilar@hotmail.com.br</p>
+        <p><b>Email: </b>fraguilar@pm.me</p>
         <p>
-          <a href="https://twitter.com/fernand0aguilar">@fernand0aguilar</a>
+          <img src={twitter} alt="github" className="SocialIcon" />
+          <b> Twitter: </b><a href="https://twitter.com/fernand0aguilar">@fernand0aguilar</a>
         </p>
         <p>
           <img src={github} alt="github" className="SocialIcon" />
-          <a href="https://github.com/fernand0aguilar">fernand0aguilar</a>
+          <b> Github: </b><a href="https://github.com/fernand0aguilar">fernand0aguilar</a>
         </p>
       </div>
     </div>

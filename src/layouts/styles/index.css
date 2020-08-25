@@ -357,3 +357,14 @@ footer img {
 .NotFound p {
   margin: 20px 0px;
 }
+
+#mc_embed_signup{
+  background:#fff; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+}
+
+.input-text {
+  position: absolute; 
+  left: -5000px;
+}

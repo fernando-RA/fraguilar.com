@@ -5,19 +5,15 @@ import Head from '../components/head';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
+import './styles/form.css'
+import './styles/grid.css'
 import './styles/index.css'
 import './styles/workshops.css'
-import './styles/grid.css'
 
 class Layout extends React.Component {
   render() {
     const { children } = this.props;
-    let isWorkshopPage = false;
-
-    if (window.location.pathname.includes('/workshops')) {
-      isWorkshopPage = true;
-    }
-
+   
     return (
       <div>
         <Head/>
