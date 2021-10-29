@@ -299,7 +299,7 @@ footer img {
 }
 
 .AboutDescription {
-  margin: 3rem 0px 0px 0px;
+  display: block;
 }
 
 .AboutDescription p {
