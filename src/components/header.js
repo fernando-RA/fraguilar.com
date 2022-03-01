@@ -14,17 +14,8 @@ const Header = () => (
           <Link to="/#work">
             <h4>Work</h4>
           </Link>
-          <Link to="/curriculum">
-            <h4>Curriculum</h4>
-          </Link>
           <Link to="/about">
             <h4>About</h4>
-          </Link>
-          <Link to="https://medium.com/@fraguilar" target="_blank">
-            <h4>Blog</h4>
-          </Link>
-          <Link to="/newsletter">
-            <h4>Newsletter</h4>
           </Link>
         </div>
       </div>
@@ -33,7 +24,7 @@ const Header = () => (
     <div className="container">
       <div className="row">
         <div className="col-xs-10 col-xs-offset-1">
-        <h2>Human Being @ Life</h2>
+        <h2>Software Engineer</h2>
       </div>
     </div>
   </div>

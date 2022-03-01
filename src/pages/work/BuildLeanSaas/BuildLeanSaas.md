@@ -8,6 +8,6 @@ more: ""
 year: "2020"
 category: "SAAS"
 description: "Build Lean SaaS is a React and Nodejs based Course and Platform for producing Performant, Agile SaaS"
-thumbnail: "capa.jpg"
+thumbnail: "capa.png"
 type: "main"
 ---

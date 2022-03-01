@@ -9,8 +9,5 @@ year: "2017"
 category: 'Art Work'
 description: "In this artwork developed on the laboratory of research in computational Art (MediaLab UnB), we developed a bioart where an Orchidaceae controls a 3D Printer via electrical pulses. This gives a different view to common and familiar objects, in case of the printer and the plant. Different sensors analyzes data like humidity, temperature and voltage, sending the vital information to a processing sketch. The software converts the data to a fractalized 3d shape that is later sliced for the printer. This first version of Cyberflor was presented at the National Museum of Brasilia, as part of the exhibition # 16Art."
 thumbnail: "cyberflor2.gif"
-type: "main"
+type: "experiment"
 ---
-
-dsdsds
-https://www.youtube.com/watch?v=iBy8YSnn_wQ
